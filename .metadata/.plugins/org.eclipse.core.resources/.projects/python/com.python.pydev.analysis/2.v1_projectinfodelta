@@ -1,0 +1,16 @@
+INSTUPPyMiscellaneous.Classifiers.test
+D:\MITLL_IAP\Eclipse\nodeclassification\python\PyMiscellaneous\Classifiers\test.py
+INFOS:&&3|1|2|0&&3|3|2|0&&3|4|2|0&&3|5|2|0&&3|6|2|0&&3|7|2|0&&3|8|2|0&&3|6|2|0&&3|7|2|0&&3|9|2|0&&3|10|2|0&&3|6|2|0&&3|11|2|0&&3|12|2|0&&3|12|2|0&&3|13|2|0&&3|8|2|0
+iris=5
+std=10
+plot_colors=3
+PyMiscellaneous.Classifiers.test=2
+plot_step=4
+n_classes=1
+cs=13
+mean=9
+X=6
+y=7
+Z=12
+idx=8
+clf=11
