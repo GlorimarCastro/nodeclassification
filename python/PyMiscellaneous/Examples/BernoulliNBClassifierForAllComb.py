@@ -4,13 +4,12 @@ Created on Jul 16, 2015
 @author: GL26163
 '''
 from itertools import combinations as comb
-from Statistic.kfold_cross_validation import get_cv_data as getData
+from PyMiscellaneous.Statistic.kfold_cross_validation import get_cv_data as getData
 from sklearn.naive_bayes import BernoulliNB
 from sklearn.externals.six import StringIO 
-from Statistic.performance import errorrate, selectBestSystem
+from PyMiscellaneous.Statistic.performance import errorrate, selectBestSystem
 import numpy
-import pydot
-import miscellaneous as mic
+import PyMiscellaneous.Examples.miscellaneous as mic
 from _ast import Str
 
 #-------------------------------------------------------------------------------------------

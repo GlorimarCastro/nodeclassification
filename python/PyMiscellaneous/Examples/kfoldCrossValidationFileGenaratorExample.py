@@ -5,7 +5,7 @@ Created on Jul 13, 2015
 '''
 
 import os
-from Statistic import kfold_cross_validation
+from PyMiscellaneous.Statistic import kfold_cross_validation
 
 file1 = open( "H:\\Data\\summer2015\\NewYorkTimes2006\\2006DB_copy.csv","r+")
 #file1 = open("H:\\Data\\summer2015\\NewYorkTimes2006\\DataForClassification_PoliticsSportWritersLawEntretainment\\2006nytPeopleInGraphWOIsolated_WLabelDescriptions_WOAmbiguityNotFound&FoundWODescription_AllMetrics_ForClassification.csv", "r+")

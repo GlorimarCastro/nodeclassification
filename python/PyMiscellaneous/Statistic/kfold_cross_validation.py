@@ -81,7 +81,7 @@ def get_cv_data(dir, f_colm, c_colm, pkcolm = 0, hasPK = False):
         
         CLASE NO FUNCIONARA PARA FOLDS MAYOR DE 10
     '''
-    from FileHandling.get_files import getFilesWithExt
+    from PyMiscellaneous.FileHandling.get_files import getFilesWithExt
     from numpy import genfromtxt
     
     #final variables:

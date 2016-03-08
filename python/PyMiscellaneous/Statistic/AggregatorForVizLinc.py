@@ -1,6 +1,6 @@
 '''
 
-This class will work just for file containing a header and name pk and 4 metrics, the graph have to represent an non isolated graph, if not division by zero would happend
+This class will work just for file containing a header and name pk and 4 metrics, the graph have to represent a non isolated graph, if not division by zero would happened
 Created on Jul 16, 2015
 
 @author: GL26163
@@ -58,7 +58,7 @@ def get_aggregator_from_graphfile(graphfile, metricfile, outputfilepath = None):
     
     #write result to file
     if outputfilepath != None:
-        from Examples.miscellaneous import createDir 
+        from PyMiscellaneous.Examples.miscellaneous import createDir 
         import os.path
         #open file
         createDir(os.path.dirname(outputfilepath))
